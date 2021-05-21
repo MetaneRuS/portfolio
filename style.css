@@ -161,10 +161,6 @@ main, footer {
 }
 
 @media (min-width: 1440px) {
-    main {
-        width: 75%;
-        margin: 0 auto;
-    }
 
     .links {
         flex-direction: row;
@@ -178,13 +174,12 @@ main, footer {
     .projects {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 5rem 0;
     }
 
     .project {
         margin: 1.5rem 0;
-        width: 40%;
+        width: 18%;
     }
 }
